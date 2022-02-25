@@ -1,0 +1,49 @@
+.header,
+.main,
+.footer,
+.skills-container,
+.portfolio-container,
+.video-container,
+.price-container,
+.title,
+.card-title {
+  background-color: #fff;
+  color: #000;
+}
+.portfolio-btn {
+  color: #000;
+}
+.player__control-panel,
+.title-wrapper::before {
+  background-color: #000;
+}
+.portfolio-btn:hover {
+  background-color: #bdae82;
+  color: #000;
+}
+.portfolio-btn.active {
+  background-color: #bdae82;
+  color: #000;
+}
+.hero-btn:hover,
+.contacts-btn:hover {
+  color: var(--alt-color);
+}
+.player__control-panel,
+.video-player {
+  border: 0px;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    background-color: #fff;
+  }
+  .navigation__link {
+    color: #000;
+  }
+  .nav__icon::before,
+  .nav__icon::after,
+  .nav__icon span {
+    background-color: #000;
+  }
+}
